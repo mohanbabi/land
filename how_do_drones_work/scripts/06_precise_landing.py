@@ -28,6 +28,7 @@ from pymavlink import mavutil
 from opencv.lib_aruco_pose import *
 
 parser = argparse.ArgumentParser()
+#-----replace udp:192.168.29.235:14554 with your drone mavlink data
 parser.add_argument('--connect', default = 'udp:192.168.29.235:14554')
 args = parser.parse_args()
     
